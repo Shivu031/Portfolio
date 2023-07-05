@@ -1,0 +1,34 @@
+.skillContainer{
+    height: 15cm;
+    width: 90%;
+    margin-left: 3cm;
+    margin-top: 1cm;
+}
+.skillsTitle{
+    font-size: 1cm;
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: 10cm;
+}
+.horizontal{
+    width: 92%;
+    margin-top: 1cm;
+    border-style: solid;
+    margin-left: 1cm;
+}
+.verticalLine{
+    border-left: 2.5px solid rgb(9, 176, 242);
+    height: 100px;
+}
+.skillsList{
+   height: 11.5cm;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.list{
+    margin-top: 3cm;
+    margin-left: -0.5cm;
+    font-size: 25px;
+    font-style: italic;
+}

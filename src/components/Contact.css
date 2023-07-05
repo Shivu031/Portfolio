@@ -1,0 +1,56 @@
+.contContainer{
+    height: 16cm;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.formContainer{
+    margin-top: -1cm;
+}
+.divContainer{
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.text{
+    margin-bottom: 0.1cm;
+    font-size: 17px;
+}
+.inputText{
+    height: 35px;
+    width: 7.5cm;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 3px 4px;
+}
+.inputText:focus{
+    outline: none;
+}
+.textInput{
+    border-radius:10px ;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.textInput:focus{
+    outline: none;
+}
+.buttonClass{
+    margin-left: 4cm;
+    width: 2cm;
+    height: 0.8cm;
+    border-radius: 10px;
+    background-color: rgb(108, 117, 249);
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+    border-style: none;
+}
+.mapContainer{
+    margin-top: -1cm;
+}
+.location{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 10px;
+    margin-bottom: 10px;
+}

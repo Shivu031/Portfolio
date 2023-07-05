@@ -1,0 +1,35 @@
+.container{
+    height: 16cm;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.para{
+    width: 50%;
+    margin-left:4cm;
+    margin-top: -2cm;
+}
+.titleContainer{
+    width: 75%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    margin-right: -6cm;
+}
+.welcome{
+    font-size: 60px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.intro{
+    font-size: 50px;
+    font-style: italic;
+}
+.image{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    cursor: pointer;
+    margin-top: 0.5cm;
+    margin-left: -5cm;
+}

@@ -1,0 +1,70 @@
+.navbar{
+    width: 100%;
+    height:50px;
+    background-color: rgb(127, 127, 247);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logoContainer{
+    flex: 7; 
+}
+
+.logo{
+    font-size: 27px;
+    font-weight: 45px;
+    color: black;
+    cursor: pointer;
+    margin-left: 35px;
+    font-family: sans-serif;
+}
+.homeContainer{
+    flex: 2;
+}
+.home{
+    font-size: 19px;
+    font-weight: 40px;
+    color: black;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.aboutContainer{
+    flex: 2;
+}
+.about{
+    font-size: 19px;
+    font-weight: 40px;
+    color: black;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.contactContainer{
+    flex: 2;
+}
+.contact{
+    font-size: 19px;
+    font-weight: 40px;
+    color: black;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.skillsContainer{
+    flex: 2;
+}
+.skills{
+    font-size: 19px;
+    font-weight: 40px;
+    color: black;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.navButton{
+    width: 2cm;
+    height: 0.8cm;
+    background-color: black;
+    color: white;
+    margin-right:14px ;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bold;
+}

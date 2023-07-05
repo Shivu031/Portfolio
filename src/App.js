@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
 import './App.css';
+import Contact from "./components/Contact";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { useState } from "react";
 
 function App() {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+  const handleDarkMode=()=>{
+
+    setIsDarkMode(!isDarkMode);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <Router>
+      <div className={`app ${isDarkMode ? 'dark-mode' : ''}`}>
+    <Navbar isDarkMode={isDarkMode} handleDarkMode={handleDarkMode}/>
+    <Routes>
+      <Route exact path="/" element={<Home/>}/>
+      <Route exact path="/about" element={<About/>}/>
+      <Route exact path="/contact" element={<Contact/>}/>
+      <Route exact path="/skills" element={<Skills/>}/>
+    </Routes>
     </div>
+    </Router>
+    </>
   );
 }
 
