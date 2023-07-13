@@ -5,14 +5,28 @@
     align-items: center;
 }
 .title{
-    margin-top: -6cm;
-    margin-left: 10cm;
+    margin-top: -3cm;
+    margin-left: 11cm;
     font-size: 40px;
     font-style: italic;
 }
 .desc{
     margin-left: 2cm;
-    margin-right: 2cm;
+    margin-right: 0cm;
     font-size: 20px;
     font-style: italic;
+}
+.abHr{
+    margin-bottom: 1cm;
+}
+.abDetails{
+    width: 50%;
+    height: 3cm;
+    background-color: rgb(249, 113, 113);
+    margin-top: 12cm;
+}
+.items{
+    color: black;
+    margin-left: 5px;
+    font-size: 20px;
 }

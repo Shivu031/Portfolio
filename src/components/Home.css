@@ -21,10 +21,7 @@
     font-weight: bolder;
     font-style: italic;
 }
-.intro{
-    font-size: 50px;
-    font-style: italic;
-}
+
 .image{
     width: 500px;
     height: 500px;
@@ -32,4 +29,17 @@
     cursor: pointer;
     margin-top: 0.5cm;
     margin-left: -5cm;
+}
+
+.intro{
+    font-size: 50px;
+    font-style: italic;
+}
+.homeButton{
+   height: 1cm;
+   width: 4cm; 
+   border-radius: 10px;
+   border-style: none;
+   background-color: rgb(249, 59, 141);
+   font-size: 18px;
 }
